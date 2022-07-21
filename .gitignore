@@ -1,5 +1,5 @@
-./CoreGularECommerce.UI/node_modules
+CoreGularECommerce.UI/node_modules
 .idea
-./CoreGularECommerce.UI/.idea
-./CoreGularECommerce.UI/.vscode
-./CoreGularECommerce.UI/.angular
+CoreGularECommerce.UI/.idea
+CoreGularECommerce.UI/.vscode
+CoreGularECommerce.UI/.angular
