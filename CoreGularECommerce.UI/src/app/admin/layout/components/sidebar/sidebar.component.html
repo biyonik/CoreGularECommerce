@@ -1,0 +1,30 @@
+<div class="drawer drawer-mobile">
+  <input id="my-drawer-2" type="checkbox" class="drawer-toggle" />
+  <div class="drawer-content flex flex-col items-center justify-center">
+    <!-- Page content here -->
+    <label for="my-drawer-2" class="btn btn-primary drawer-button lg:hidden">Open drawer</label>
+
+  </div>
+  <div class="drawer-side">
+    <label for="my-drawer-2" class="drawer-overlay"></label>
+    <ul class="menu p-4 overflow-y-auto w-80 bg-base-100 text-base-content">
+      <!-- Sidebar content here -->
+      <li class="py-2">
+        <a routerLink="/admin" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}" class="btn btn-secondary capitalize">Dashboard</a>
+      </li>
+      <li class="py-2">
+        <a routerLink="customers" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}" class="btn btn-secondary capitalize">Customers</a>
+      </li>
+      <li class="py-2">
+        <a routerLink="products" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}" class="btn btn-secondary capitalize">Products</a>
+      </li>
+      <li class="py-2">
+        <a routerLink="orders" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}" class="btn btn-secondary capitalize">Orders</a>
+      </li>
+      <li class="py-2">
+        <a routerLink="" class="btn btn-secondary capitalize">Siteyi Gör</a>
+      </li>
+    </ul>
+
+  </div>
+</div>

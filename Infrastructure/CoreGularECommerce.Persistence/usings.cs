@@ -1,0 +1,11 @@
+﻿global using CoreGularECommerce.Application.Abstraction;
+global using CoreGularECommerce.Persistence.Concretes;
+global using Microsoft.Extensions.DependencyInjection;
+global using CoreGularECommerce.Domain.Entities;
+global using CoreGularECommerce.Application.Repositories.ProductRepository;
+global using CoreGularECommerce.Persistence.Contexts.EntityFramework;
+global using CoreGularECommerce.Application.Repositories.OrderRepository;
+global using CoreGularECommerce.Application.Repositories.CustomerRepository;
+global using CoreGularECommerce.Persistence.Repositories.CustomerRepository;
+global using CoreGularECommerce.Persistence.Repositories.OrderRepository;
+global using CoreGularECommerce.Persistence.Repositories.ProductRepository;

@@ -1,0 +1,17 @@
+I:\Projects\NetCore\CoreGularECommerce\Core\CoreGularECommerce.Application\bin\Debug\net6.0\CoreGularECommerce.Application.deps.json
+I:\Projects\NetCore\CoreGularECommerce\Core\CoreGularECommerce.Application\bin\Debug\net6.0\CoreGularECommerce.Application.dll
+I:\Projects\NetCore\CoreGularECommerce\Core\CoreGularECommerce.Application\bin\Debug\net6.0\CoreGularECommerce.Application.pdb
+I:\Projects\NetCore\CoreGularECommerce\Core\CoreGularECommerce.Application\bin\Debug\net6.0\CoreGularECommerce.Domain.dll
+I:\Projects\NetCore\CoreGularECommerce\Core\CoreGularECommerce.Application\bin\Debug\net6.0\CoreGularECommerce.Domain.pdb
+I:\Projects\NetCore\CoreGularECommerce\Core\CoreGularECommerce.Application\obj\Debug\net6.0\CoreGularECommerce.Application.csproj.AssemblyReference.cache
+I:\Projects\NetCore\CoreGularECommerce\Core\CoreGularECommerce.Application\obj\Debug\net6.0\CoreGularECommerce.Application.GeneratedMSBuildEditorConfig.editorconfig
+I:\Projects\NetCore\CoreGularECommerce\Core\CoreGularECommerce.Application\obj\Debug\net6.0\CoreGularECommerce.Application.AssemblyInfoInputs.cache
+I:\Projects\NetCore\CoreGularECommerce\Core\CoreGularECommerce.Application\obj\Debug\net6.0\CoreGularECommerce.Application.AssemblyInfo.cs
+I:\Projects\NetCore\CoreGularECommerce\Core\CoreGularECommerce.Application\obj\Debug\net6.0\CoreGularECommerce.Application.csproj.CoreCompileInputs.cache
+I:\Projects\NetCore\CoreGularECommerce\Core\CoreGularECommerce.Application\obj\Debug\net6.0\CoreGularECommerce.Application.csproj.CopyComplete
+I:\Projects\NetCore\CoreGularECommerce\Core\CoreGularECommerce.Application\obj\Debug\net6.0\CoreGularECommerce.Application.dll
+I:\Projects\NetCore\CoreGularECommerce\Core\CoreGularECommerce.Application\obj\Debug\net6.0\refint\CoreGularECommerce.Application.dll
+I:\Projects\NetCore\CoreGularECommerce\Core\CoreGularECommerce.Application\obj\Debug\net6.0\CoreGularECommerce.Application.pdb
+I:\Projects\NetCore\CoreGularECommerce\Core\CoreGularECommerce.Application\obj\Debug\net6.0\ref\CoreGularECommerce.Application.dll
+I:\Projects\NetCore\CoreGularECommerce\Core\CoreGularECommerce.Application\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+I:\Projects\NetCore\CoreGularECommerce\Core\CoreGularECommerce.Application\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.xml

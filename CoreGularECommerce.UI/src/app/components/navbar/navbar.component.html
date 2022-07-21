@@ -1,0 +1,54 @@
+<div class="navbar bg-primary text-primary-content">
+  <div class="flex-1">
+    <p class="btn btn-ghost normal-case text-xl">
+      {{title}}
+    </p>
+  </div>
+  <div class="flex-none">
+    <ul class="menu menu-horizontal p-0">
+      <ng-container *ngIf="!isAdmin">
+        <li class="mx-1">
+          <a
+            routerLink=""
+            routerLinkActive="active"
+            [routerLinkActiveOptions]="{exact:true}"
+            class="btn btn-outline btn-dark"
+          >
+            Home
+          </a>
+        </li>
+        <li class="mx-1">
+          <a
+            routerLink="products"
+            routerLinkActive="active"
+            [routerLinkActiveOptions]="{exact:true}"
+            class="btn btn-success"
+          >
+            Products
+          </a>
+        </li>
+        <li class="mx-1">
+          <a
+            routerLink="basket"
+            routerLinkActive="active"
+            [routerLinkActiveOptions]="{exact:true}"
+            class="btn btn-success"
+          >
+            Basket
+          </a>
+        </li>
+      </ng-container>
+      <li class="mx-1">
+        <a
+          routerLink="admin"
+          routerLinkActive="active"
+          [routerLinkActiveOptions]="{exact:true}"
+          class="btn btn-success"
+        >
+          Admin
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
+

@@ -1,0 +1,66 @@
+<div tabindex="1" class="collapse collapse-open border-2 bg-base-100 rounded-box mt-3">
+  <div class="collapse-title text-xl font-medium">
+    Ürünler
+  </div>
+  <div class="collapse-content">
+    <div class="overflow-x-auto">
+      <table mat-table [dataSource]="dataSource" class="table w-full table-zebra hover text-dark">
+
+        <ng-container matColumnDef="name">
+          <th *matHeaderCellDef class="capitalize text-xl"> Ürün Adı</th>
+          <td *matCellDef="let element"> {{element.name}} </td>
+        </ng-container>
+
+        <ng-container matColumnDef="stock">
+          <th *matHeaderCellDef class="capitalize text-xl"> Stok Adedi</th>
+          <td *matCellDef="let element"> {{element.stock}} </td>
+        </ng-container>
+
+        <ng-container matColumnDef="price">
+          <th *matHeaderCellDef class="capitalize text-xl"> Fiyat</th>
+          <td *matCellDef="let element"> {{element.price}} </td>
+        </ng-container>
+
+        <ng-container matColumnDef="createdAt">
+          <th *matHeaderCellDef class="capitalize text-xl"> Oluşturulma Tarihi</th>
+          <td *matCellDef="let element"> {{element.createdAt | date: 'dd/MM/yyyy HH:mm'}} </td>
+        </ng-container>
+
+        <ng-container matColumnDef="updatedAt">
+          <th *matHeaderCellDef class="capitalize text-xl"> Güncellenme Tarihi</th>
+          <td *matCellDef="let element"> {{element.updatedAt | date: 'dd/MM/yyyy HH:mm'}}  </td>
+        </ng-container>
+
+        <ng-container matColumnDef="_actions">
+          <th *matHeaderCellDef class="capitalize text-xl"> İşlemler</th>
+          <td *matCellDef="let element" (click)="$event.stopPropagation()">
+            <div class="flex items-center gap-2" appDelete [id]="element.id" (callback)="getProducts()">
+              <div class="tooltip" data-tip="Düzenle">
+                <button class="btn btn-circle btn-outline btn-success" type="button">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                       stroke="currentColor">
+                    <g id="pen-Filled">
+                      <path id="pen-Filled-2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M11.911,6.33l5.76,5.76L9.771,20a2.521,2.521,0,0,1-1.35.7l-4.74.79a.97.97,0,0,1-.17.01,1.017,1.017,0,0,1-.71-.3,1.028,1.028,0,0,1-.29-.88l.79-4.74A2.521,2.521,0,0,1,4,14.23ZM20.3,3.7a4.056,4.056,0,0,0-5.76,0l-1.21,1.21,5.76,5.76L20.3,9.46a4.056,4.056,0,0,0,0-5.76Z"/>
+                    </g>
+
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </td>
+        </ng-container>
+
+        <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+        <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+      </table>
+
+      <mat-paginator
+        (page)="pageChanged()"
+        [pageSizeOptions]="[5, 10, 20]"
+        showFirstLastButtons
+        aria-label="Sayfadaki kayıt sayısı">
+      </mat-paginator>
+    </div>
+  </div>
+</div>
